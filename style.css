@@ -1,0 +1,43 @@
+.pass  {
+    background-color: gray;
+    border: 1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-gap: 50px;
+    flex: 98%;
+}
+.stars{
+    background-color: gray;
+    border: 50px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    text-align: center;
+    grid-gap: 50px;
+    flex: 98%;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    background-color: limegreen;
+    padding: 10px;
+    width: 30%;
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-gap: 10px;
+}
+.grid-item {
+    background-color: gray;
+    flex: 30%;
+    border: 1px solid rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-gap: 50px;
+}
