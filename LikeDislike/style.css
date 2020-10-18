@@ -1,0 +1,56 @@
+
+.press {
+    height: 5%;
+    width: 10%;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    opacity: 0.8;
+    transition: 0.3s;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    align-content: center;
+
+
+}
+
+
+.press:hover {
+    opacity: 1
+}
+
+.press:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background-color: #3e8e41;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+text {
+
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+
+}
+
